@@ -1,2 +1,2 @@
 # SpringBoot using DTO
-People Management System
+People Management System using DTO
