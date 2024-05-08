@@ -2,6 +2,8 @@ package com.PMSystemBoot.Dto;
 
 import java.util.UUID;
 
+//We are using dto class like for example if we have login page so there we will pass in the body is password and username so for that we will create the dto class for this where only password and username variables are available and getter setter are availabe for calling this claas we use getter setter in any other class to add the data from the database inside it,so for creating this if someone checking our code so they can easily understand like this dto is usefull for login only no other varaibles are available inside the dto class but inside our login entity some more variables are available like creator id, user phone no etc but we dont need this data for login that is why we are creating a dto class for easy to understand and another thing is hiding the another data like phone no at all which is a part of data hiding abstraction this is for also important for security purpose that is why also we are using dto class.
+
 public class PeopleDto {
 	
 	private UUID id;
